@@ -15,7 +15,7 @@ namespace CsManager.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "หน้าหลักนะจ๊";
+            ViewBag.Message = "หน้าหลักะจ๊";
 
             return View();
         }
