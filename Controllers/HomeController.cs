@@ -15,7 +15,7 @@ namespace CsManager.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "หน้าหลักนะจ๊ะ";
 
             return View();
         }
