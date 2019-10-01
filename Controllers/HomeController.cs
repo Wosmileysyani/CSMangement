@@ -22,7 +22,7 @@ namespace CsManager.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "เทสสอง";
 
             return View();
         }
