@@ -1,0 +1,35 @@
+﻿@model CsManager.Models.Login
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutM.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Login</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Log_Pass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Log_Pass)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Log_Role)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Log_Role)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Log_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
