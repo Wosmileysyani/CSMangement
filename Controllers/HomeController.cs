@@ -15,14 +15,14 @@ namespace CsManager.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "หน้าหลักะจ๊";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "เทสสอง";
 
             return View();
         }
